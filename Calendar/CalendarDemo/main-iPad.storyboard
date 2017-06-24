@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="DbJ-31-h6o">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="kxW-zC-am1">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="DbJ-31-h6o" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IPr-fj-gu6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <containerView contentMode="scaleToFill" misplaced="YES" id="Ham-TQ-m4h">
+                                <rect key="frame" x="0.0" y="44" width="768" height="939"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.94793570041656494" green="0.94793570041656494" blue="0.94793570041656494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <connections>
+                        <outlet property="containerView" destination="Ham-TQ-m4h" id="fPz-Zz-13M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KCc-d4-pwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-2103"/>
+        </scene>
+        <!--dayPlannerSettings-->
+        <scene sceneID="7f4-C0-b4b">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="settingsStoryboard" storyboardName="settings" referencedIdentifier="dayPlannerSettings" id="Ddq-CE-53i" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KqB-tD-pUa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nB7-f3-QJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-459" y="-1322"/>
+        </scene>
+        <!--monthPlannerSettings-->
+        <scene sceneID="o3h-TQ-JOR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="settings" referencedIdentifier="monthPlannerSettings" id="TUG-Yd-0AJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ea0-Xb-A9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-260" y="-1322"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
